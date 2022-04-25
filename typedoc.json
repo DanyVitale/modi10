@@ -1,6 +1,6 @@
 {
   "entryPoints": [
-    "./src/index.ts"
+    "./src/server.ts"
   ],
   "out": "./docs"
 }

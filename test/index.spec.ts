@@ -13,7 +13,7 @@ describe('MessageEventEmitterClient', () => {
       done();
     });
 
-    socket.emit('data', '{"type": "change", "prev": 13');
+    socket.emit('data', '{"type": "change", "prev": ');
     socket.emit('data', ', "curr": 26}');
     socket.emit('data', '\n');
   });
